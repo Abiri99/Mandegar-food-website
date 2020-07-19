@@ -1,0 +1,28 @@
+body {
+    direction: rtl;
+}
+
+h1 {
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: right;
+}
+
+h1, h2, p {
+    font-family: "IranSans";
+}
+
+.card {
+    padding: 16px;
+}
+
+@font-face {
+    font-family: "IranSans";
+    src: url(/assets/IRANSansWebFaNum.ttf);
+}
